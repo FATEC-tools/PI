@@ -1,0 +1,61 @@
+
+article{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: #182143;
+    border: none;
+    height: 1000px;
+    clear: both;
+}
+
+h1 {
+    margin: 0;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    background-color: #ba2221;
+    border-radius: 0%; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100px;
+    /*padding: 20px 4%;*/
+}
+footer {
+    background-color: #ba2221;
+    height: 150px;
+    width: 100%;
+    clear: both;
+}
+
+i#burguer {
+    width: 30px;
+}
+
+img#logo {
+    width: 80px;
+}
+
+div.container-logo{
+    display: flex;
+    justify-content: center;
+}
+
+header>.container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    padding: 0px;
+}
