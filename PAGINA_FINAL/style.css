@@ -1,0 +1,116 @@
+/* CABEÇALHO */
+header {
+    max-width: 100%; /* Define a largura máxima */
+    height: 100px;
+    background-color: #ba2221;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    overflow-x: hidden; /* Para evitar a barra de rolagem horizontal */
+}
+
+body {
+    margin: 0;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}
+
+/* BARRA DE PESQUISA */
+form.example {
+    display: flex;
+    flex: 1;
+    max-width: 800px;
+}
+
+form.example input[type=text] {
+    flex: 1;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    background: #f1f1f1;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+form.example button {
+    padding: 10px 20px;
+    background: #840c15;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* BOTÕES DE LOGIN/CADASTRO */
+.btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.btn-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #840c15;
+    color: #fff; /* Mudando a cor do texto para preto */
+    font-weight: bold; /* Deixando o texto mais grosso */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px; /* Adiciona espaçamento entre os botões */
+}
+
+button:last-child {
+    margin-right: 0; /* Remove a margem direita do último botão */
+}
+
+button:hover {
+    background-color: rgb(161, 58, 58);
+}
+
+/*CABEÇALHO COMPLETO*/
+
+
+.area-imagem{
+    margin: 4% 10%;
+    border-radius: 20px;
+    padding: 10px 7px;
+    background-color: #000;
+}
+
+.display-flex-space-every > img{
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.display-flex-space-every{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 800px;
+} 
+
+.display-flex-start{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 300px;
+}
+
+.display-flex-start > h1{
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 400%;
+    text-align: center;
+}
+
