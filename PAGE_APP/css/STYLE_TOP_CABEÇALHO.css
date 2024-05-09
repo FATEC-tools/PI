@@ -1,0 +1,71 @@
+/* ESTILOS PADRÃO PARA O CABEÇALHO DO SITE */
+.topo-nav{
+    width: 100vw;
+    height: 75px;
+    color: white;
+    background-image: linear-gradient(90deg, #840C15 10%, #BA2221 40%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+
+#perfil-div{
+    border-radius: 70px;
+    background:white;
+    width: 60px;
+    height: 60px;
+}
+
+
+/*BARRA DE PESQUISA*/
+.btn-pesquisa{
+    border-radius: 20px;
+    overflow: hidden;
+    padding: auto;
+    display: flex;
+    
+}
+
+form.btn-pesquisa input[type=text] {
+    padding: 10px;
+    font-size: 12pt;
+    border: none;
+    width: 100%;
+    background: #f1f1f1;
+  }
+ 
+form.btn-pesquisa button {
+    width: 20%;
+    padding: 10px;
+    background: #840c15;
+    color: white;
+    font-size: 12pt;
+    border: none;
+    border-left: none;
+    cursor: pointer;
+  }
+ 
+form.btn-pesquisa::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+ 
+*{
+    box-sizing: border-box;
+}
+ /*fim estilo cabeçalho  */
+
+
+/* ESTILOS PADRÃO PARA O RODAPÉ DO SITE */
+.fim-site{
+    background-image: linear-gradient(90deg, #840C15 10%, #BA2221 40%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+ 
