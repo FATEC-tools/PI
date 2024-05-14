@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* ESTILO GERAL - FUNDO E CENTRALIZAÇÃO */
+body{
+    font-family: 'poppins', sans-serif;
+    background-image: linear-gradient(195deg, #2b3a72 0%, #040518 70%);
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+
+main{ 
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* ESTILO CARD*/
+.flex-center{
+    width: 100vh;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_login{
+    color: white;
+    background-image: linear-gradient(180deg, #2c3e81, #131b38);
+    border-radius: 5%;
+    box-shadow: 0px 15px 10px #010107;
+    width: 25vw;
+    height: 50vh;
+    padding: 10% 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ESTILO DOS FORMULARIO */
+.fielholder{
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fielholder > form > label{
+    margin-top: 7%;
+}
+
+.fielholder > form > input{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    transform: scale(1.0);
+    transition: 0.2s;
+    padding: 3% 0;
+}
+
+.fielholder > form > input:focus{
+    border: none;
+    box-shadow: 0px 5px 8px #040518ab;
+    border-radius: 5px;
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+
+.fielholder > form > input::placeholder{padding-left: 2%;}
+
+#btn-entrar{
+    margin-top: 10%;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    background: #ED2625;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+#btn-entrar:hover{
+    transform: scale(1.01);
+    transition: 0.2s;
+    cursor: pointer;
+    box-shadow: 0px 10PX 20px -10px #ff2f2f;
+}
