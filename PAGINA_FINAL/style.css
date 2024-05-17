@@ -282,3 +282,40 @@ button:hover {
   background-color: #182143;
   transform: translateY(-10px);
 }
+
+/* FOOTER/SOBRE em produção/tendo ideias*/
+
+.sobre {
+  background-color: #840c15;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* text-align: center; */
+}
+
+h2.sobr{
+  font-weight: 400;
+  font-size: 5rem;
+  line-height: 4.7rem;
+  margin-bottom: 3rem;
+  color: #fff;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+ul, li{
+  color: #fff;
+  margin-left: 10px;
+}
+
+h3{
+  color: #fff;
+  margin-left: 40px;
+}
+
+h4{
+  color: #fff;
+  margin-left: 700px;
+  margin-top: 0;
+}
