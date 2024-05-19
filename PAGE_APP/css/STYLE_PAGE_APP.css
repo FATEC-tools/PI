@@ -1,35 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* ESTILO GERAL - FUNDO E CENTRALIZAÇÃO */
-body{
+body {
     font-family: 'poppins', sans-serif;
-    background-image: linear-gradient(195deg, #2b3a72 0%, #040518 70%);
+    background: #040518;
+    /* background-image: linear-gradient(195deg, #2b3a72 0%, #040518 70%); */
     background-attachment: fixed;
     margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 
 /* ESTILO AREA DE DOWNLOAD */
 
-.area-download{
+.area-download {
     margin: 3% 5%;
-    border-radius: 20px;
+    border-radius: 2vw;
     padding: 10px 7px;
     background-image: linear-gradient(90deg, #840C15 10%, #BA2221 40%);
 }
 
-.display-flex-space-every > img{
+.display-flex-space-every>img {
     background: rgb(255, 255, 255);
     border-radius: 10px;
 }
 
-.display-flex-space-every{
+.display-flex-space-every {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.display-flex-space-every > #btn-direcionar{
+.display-flex-space-every>#btn-direcionar {
     color: #BA2221;
     background: white;
     border: none;
@@ -42,7 +45,7 @@ body{
     transition: .2s;
 }
 
-.display-flex-space-every > #btn-direcionar:hover{
+.display-flex-space-every>#btn-direcionar:hover {
     color: white;
     background: none;
     border: 1px solid white;
@@ -50,7 +53,7 @@ body{
     transition: .2s;
 }
 
-.display-flex-start{
+.display-flex-start {
     color: white;
     display: flex;
     justify-content: center;
@@ -58,18 +61,93 @@ body{
     flex-direction: column;
 }
 
-.display-flex-start > h1{
+.display-flex-start>h1 {
     margin-bottom: 0;
     font-weight: 400;
     font-size: 400%;
 }
 
-.display-flex-start > h4{
+.display-flex-start>h4 {
     margin-top: 0;
-    font-weight: 700;
+    font-weight: 300;
     font-size: 250%;
+    display: flex;
+    align-items: center;
 }
+
+.display-flex-start h4 span {
+    height: 5.3vh;
+}
+
 /* fim da area de download */
 
 
 /* ESTILO CARROSSEL DE FOTOS */
+
+/* ESTILOS DA AREA FOTOS ESTA EM "img/STYLE_SLIDES_IMAGEM" */
+
+/* fim area de fotos */
+
+
+
+/* ESTILOS DA AREA DE DESCRIÇAO E AVALIAÇAO */
+.area-descricao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descricao-avaliacao {
+    background: #BA2221;
+    color: white;
+    padding: 4% 5%;
+    margin: 10%;
+    height: 160vh;
+    border-radius: 0.5vw;
+}
+
+.descricao {
+    margin-bottom: 7%;
+}
+
+.descricao h2,
+.avaliacao h2 {
+    text-align: center;
+    font-size: 5vh;
+    margin-bottom: 2%;
+}
+
+.descricao p {
+    text-align: justify;
+    font-size: 2vh;
+}
+
+.avaliacao {
+    background: #840C15;
+    border: solid white 1px;
+    border-radius: 0.3vw;
+    height: 102vh;
+}
+
+.blocos-avaliacao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blocos-avaliacao div {
+    background-color: rgb(255, 220, 220);
+    width: 30vw;
+    height: 40vh;
+    margin: 10px;
+    border-radius: 1vh;
+    transition: .5s;
+}
+
+.blocos-avaliacao div:hover {
+    transform: scale(1.02);
+    transition: .5s;
+    border-radius: 0;
+    box-shadow: 0px 10px 20px #30020593;
+    cursor: pointer;
+}

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/STYLE_PAGE_APP.css">
     <link rel="stylesheet" href="css/STYLE_TOP_CABEÇALHO.css">
+    <link rel="stylesheet" href="css/STYLE_SLIDES_IMAGEM.css">
 
     <!-- ICON PESQUISA -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,7 +15,7 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
 
 
-    <title>FATEC tools - app</title>
+    <title>FATEC tools - App</title>
     <link rel="icon" href="img/ICON_SITE_FATECTOOLS.png" type="image/png">
 </head>
 
@@ -45,7 +46,11 @@
                 <img src="img/visualcode.png" alt="icone visual studios code" width="10%" height="10%">
                 <div class="display-flex-start">
                     <h1>Visual Studios Code</h1>
-                    <h4>4,5</h4>
+                    <h4>
+                        <span><img src="img/star_ico.png" alt="estrela de avaliação" height="45vh">
+                        </span>
+                        4,5
+                    </h4>
                 </div>
                 <button id="btn-direcionar">ir para o site</button>
             </div>
@@ -53,12 +58,83 @@
         </section>
 
         <section class="area-imagens">
+
             <!-- AREA CARROSSEL DE FOTOS -->
+            <div class="slides-imagem-conteiner2">
+                <div class="slides-imagem-conteiner">
+                    <div class="slides-imagens">
+
+                        <!-- ESCOLHER IMAGEMS QUE SERÁ EXIBIDA -->
+                        <input class="radio-img" type="radio" name="slide" id="slide1" checked>
+                        <input class="radio-img" type="radio" name="slide" id="slide2">
+                        <input class="radio-img" type="radio" name="slide" id="slide3">
+                        <input class="radio-img" type="radio" name="slide" id="slide4">
+                        <input class="radio-img" type="radio" name="slide" id="slide5">
+
+                        <!-- IMAGENS DO SLIDE -->
+                        <div class="slide s1">
+                            <img src="img/tela_welcom.png" alt="">
+                        </div>
+
+                        <div class="slide">
+                            <img src="img/Captura de tela 2024-05-18 172949.png" alt="">
+                        </div>
+
+                        <div class="slide">
+                            <img src="img/tela_codigo.png" alt="">
+                        </div>
+
+                        <div class="slide">
+                            <img src="img/ICON_SITE_FATECTOOLS.png" alt="">
+                        </div>
+
+                        <div class="slide">
+                            <img src="img/visualcode.png" alt="">
+                        </div>
 
 
+                    </div>
+
+
+                    <!-- NAVEGAÇÃO ENTRE AS IMAGENS -->
+                    <div class="slides-navegation">
+                        <label class="bar" for="slide1"></label>
+                        <label class="bar" for="slide2"></label>
+                        <label class="bar" for="slide3"></label>
+                        <label class="bar" for="slide4"></label>
+                        <label class="bar" for="slide5"></label>
+                    </div>
+
+                </div>
+            </div>
         </section>
 
-        <section>
+        <section class="area-descricao">
+            <div class="descricao-avaliacao">
+                <div class="descricao">
+                    <h2>Descrição</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                        quos rem cum omnis aut reprehenderit voluptate quibusdam
+                        necessitatibus numquam sit expedita in perferendis iusto,
+                        iure voluptates recusandae repudiandae eligendi voluptatem.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                        quos rem cum omnis aut reprehenderit voluptate quibusdam
+                        necessitatibus numquam sit expedita in perferendis iusto,
+                        iure voluptates recusandae repudiandae eligendi voluptatem.
+                    </p>
+                </div>
+
+                <div class="avaliacao">
+                    <h2>Avaliação</h2>
+                    <div class="blocos-avaliacao">
+                        <div class="avaliacao-user"></div>
+                        <div class="avaliacao-user"></div>
+                        <div class="avaliacao-user"></div>
+                        <div class="avaliacao-user"></div>
+                    </div>
+                </div>
+            </div>
 
         </section>
 
