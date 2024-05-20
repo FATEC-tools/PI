@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* ESTILO GERAL - FUNDO E CENTRALIZAÇÃO */
-body{
+body {
     font-family: 'poppins', sans-serif;
     background-image: linear-gradient(195deg, #2b3a72 0%, #040518 70%);
     background-attachment: fixed;
@@ -8,7 +9,7 @@ body{
     margin: 0;
 }
 
-main{ 
+main {
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
@@ -16,7 +17,7 @@ main{
 }
 
 /* ESTILO DA ESQUERDA TITULOS E IMAGEM */
-.left_login{
+.left_login {
     color: white;
     width: 50vh;
     height: 100vh;
@@ -26,22 +27,25 @@ main{
     align-items: start;
 }
 
-.left_login > h1, .left_login h2{
+.left_login>h1,
+.left_login h2 {
     line-height: 1;
     margin-top: 2px;
 }
 
-.left_login > h1{
+.left_login>h1 {
     margin-bottom: 2px;
     color: #ED2625;
+    font-size: 4.5vh;
 }
 
-.left_login > h2 {
+.left_login>h2 {
     font-weight: 300;
+    font-size: 3vh;
 }
 
 /* ESTILO DA DIREITA CARD LOGIN */
-.right_login{
+.right_login {
     width: 50vh;
     height: 100vh;
     margin: 0;
@@ -51,13 +55,12 @@ main{
     align-items: center;
 }
 
-.card_login{
+.card_login {
     color: white;
     background-image: linear-gradient(180deg, #2c3e81, #131b38);
     border-radius: 5%;
     box-shadow: 0px 15px 10px #010107;
     width: 25vw;
-    height: 50vh;
     padding: 10% 8%;
     display: flex;
     flex-direction: column;
@@ -65,40 +68,51 @@ main{
     align-items: center;
 }
 
+.card_login h1 {
+    font-size: 4vh;
+}
+
 /* ESTILO DOS FORMULARIO */
-.fielholder{
+.fielholder {
     margin-bottom: 4%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+/* TAMANHO FONT */
+.fielholder>form>label, .fielholder>form>input, #btn-entrar, a{
+    font-size: 2vh;
+}
 
-.fielholder > form > label{
+.fielholder>form>label {
     margin-top: 7%;
 }
 
-.fielholder > form > input{
+.fielholder>form>input {
     width: 100%;
     border: none;
-    border-radius: 5px;
-    transform: scale(1.0);
+    border-radius: 1vh;
     transition: 0.2s;
-    padding: 3% 0;
+    padding: 3% 0%;
 }
 
-.fielholder > form > input:focus{
+.fielholder>form>input:focus {
     border: none;
     box-shadow: 0px 5px 8px #040518ab;
-    border-radius: 5px;
+    border-radius: 1vh;
     transform: scale(1.01);
     transition: 0.2s;
 }
 
-.fielholder > form > input::placeholder{padding-left: 2%;}
+.fielholder>form>input::placeholder, .fielholder>form>input{
+    padding-left: 2%;
+}
 
-#btn-entrar{
-    margin-top: 10%;
+#btn-entrar {
+    margin-top: 3%;
+    margin-bottom: 2%;
     border: none;
     padding: 15px;
     width: 100%;
@@ -110,9 +124,24 @@ main{
     transition: 0.2s;
 }
 
-#btn-entrar:hover{
+#btn-entrar:hover {
     transform: scale(1.01);
     transition: 0.2s;
     cursor: pointer;
     box-shadow: 0px 10PX 20px -10px #ff2f2f;
+}
+
+#btn-ancora {
+    width: 100%;
+}
+
+.card_login a {
+    color: #3a52aa;
+    transition: .2s;
+
+}
+
+.card_login a:hover {
+    transform: scale(1.02);
+    transition: .2s;
 }
