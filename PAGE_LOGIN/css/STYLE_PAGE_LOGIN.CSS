@@ -16,6 +16,23 @@ main {
     align-items: center;
 }
 
+input, label {
+    font-size: 2.5vh;
+}
+
+h1 {
+    font-size: 3vh;
+}
+
+.left_login h1{
+    font-size: 3.5vh;
+}
+
+h2{
+    font-size: 2.5vh;
+}
+
+svg{height: 70vh; transform:translateX(-20%) ;}
 /* ESTILO DA ESQUERDA TITULOS E IMAGEM */
 .left_login {
     color: white;
@@ -36,12 +53,10 @@ main {
 .left_login>h1 {
     margin-bottom: 2px;
     color: #ED2625;
-    font-size: 4.5vh;
 }
 
 .left_login>h2 {
     font-weight: 300;
-    font-size: 3vh;
 }
 
 /* ESTILO DA DIREITA CARD LOGIN */
@@ -68,9 +83,7 @@ main {
     align-items: center;
 }
 
-.card_login h1 {
-    font-size: 4vh;
-}
+
 
 /* ESTILO DOS FORMULARIO */
 .fielholder {
