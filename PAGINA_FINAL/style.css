@@ -300,7 +300,7 @@ h2.sobr{
   margin-bottom: 3rem;
   color: #fff;
   text-align: center;
-  margin-left: 40px;
+  margin-left: -1400px;
   margin-top: 40px;
 }
 
@@ -316,6 +316,17 @@ h3{
 
 h4{
   color: #fff;
-  margin-left: 700px;
+  margin-left: 1520px;
   margin-top: 0;
 }
+
+.objetivos{
+  text-align: justify;
+  margin-left: 30px;
+}
+
+p.text{
+  font-size:24px;
+  align-items: flex-start;
+}
+
