@@ -15,13 +15,21 @@ body {
 /* ESTILO AREA DE DOWNLOAD */
 
 .area-download {
+    margin-top: 1%;
     margin-bottom: 3%;
     padding: 10px 7px;
     background-image: linear-gradient(-90deg, #840C15 10%, #BA2221 40%);
 }
 
 .card-instalar {
-    margin: 10% 0 3%;
+    margin: 4% 0 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-instalar{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,16 +37,24 @@ body {
 }
 
 .text-instalar h2 {
-    font-size: 5vh;
-    margin-bottom: 1%;
+    font-size: 7vh;
+    margin-bottom: .7%;
+    margin-top: 2%;
     color: white;
+}
+
+#image-icon-app{
+    height: 25vh;
+    width: 25vh;
+    border-radius: 2vh;
+    background: #03112c;
 }
 
 .btn-instalar {
     margin-top: 3%;
     color: white;
     font-weight: lighter;
-    font-size: 1.5vh;
+    font-size: 1.9vh;
     background: #BA2221;
     border: none;
     width: 15vw;
