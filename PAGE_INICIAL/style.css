@@ -1,0 +1,722 @@
+/* CABEÇALHO */
+header {
+    max-width: 100%; /* Define a largura máxima */
+    height: 100px;
+    background-color: #840c15;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    overflow-x: hidden; /* Para evitar a barra de rolagem horizontal */
+}
+
+body {
+    margin: 0;
+    background-attachment: fixed;
+    background-color: #05061e;
+}
+
+h1 {
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}
+
+/* BARRA DE PESQUISA */
+form.example {
+    display: flex;
+    flex: 1;
+    max-width: 800px;
+}
+
+form.example input[type=text] {
+    flex: 1;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    background: #f1f1f1;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+form.example button {
+    padding: 10px 20px;
+    background: #ba2221;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+form.example button:hover {
+    background-color: rgb(109, 17, 17);
+}
+
+/* BOTÕES DE LOGIN/CADASTRO */
+.btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.btn-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ba2221;
+    color: #fff; /* Mudando a cor do texto para preto */
+    font-weight: bold; /* Deixando o texto mais grosso */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px; /* Adiciona espaçamento entre os botões */
+}
+
+button:last-child {
+    margin-right: 0; /* Remove a margem direita do último botão */
+}
+
+button:hover {
+    background-color: rgb(109, 17, 17);
+}
+
+/*CABEÇALHO COMPLETO*/
+
+
+.area-imagem{
+    margin: 4% 10%;
+    border-radius: 20px;
+    padding: 10px 7px;
+    background-color: #000;
+}
+
+.display-flex-space-every > img{
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.display-flex-space-every{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 800px;
+} 
+
+.display-flex-start{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 300px;
+}
+
+.display-flex-start > h1{
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 400%;
+    text-align: center;
+}
+
+
+/* site disponíveis */
+
+/* ------------ skills ------------------ */
+ 
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .skills2 {
+    display: flex;
+    align-items: left 24vh;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .skills3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+   
+  .line {
+    border: 2px #FF4D00 solid;
+    width: 17rem;
+    margin-bottom: 1rem;
+  }
+   
+  .tech h2 {
+    margin-bottom: 3rem;
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 6.6rem;
+    color:#fff;
+    text-align: left;
+  }
+
+  .h2cat {
+    text-align: left -20%;
+    margin-left: 10%;
+  }
+   
+  .techs {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    max-width: 80rem;
+    margin-bottom: 5rem;
+  }
+   
+  .tool h2 {
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 4.7rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    text-align: left;
+  }
+   
+  .tools {
+    max-width: 65rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-bottom: 5rem;
+  }
+   
+  .card {
+    padding: 3rem;
+    background: #182143;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 8px;
+    transition: all 0.4s ease;
+    color: white;
+  }
+  section#skills.skills{
+      background-color: #05061e;
+
+  }
+
+  section#skills3.skills3{
+    background-color: #05061e;
+
+}
+
+  section#skills2.skills2{
+      background: #840c15;
+  }
+   
+  .card p {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.9rem;
+  }
+   
+  .card:hover {
+    cursor: pointer;
+    background-color: #182143;
+    transform: translateY(-10px);
+  }
+
+  .card2:hover {
+    cursor: pointer;
+    background-color: #ba2221;
+    transform: translateY(-10px);
+  }
+   
+  .card img {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  p {
+     color:#fff;
+  }
+   
+  .tools .card img {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  /* arrumar o tamanho da imagem do card dos Livros, deixar igual ao do de Sites/Artigos */
+.card2{
+  padding: 3rem;
+  background: #ed2625;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 8px;
+  transition: all 0.4s ease;
+  color: white;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.9rem;
+}
+.card3 {
+  padding: 3rem;
+  background: #182143;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 8px;
+  transition: all 0.4s ease;
+  color: white;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.9rem;
+}
+
+.card3:hover {
+  cursor: pointer;
+  background-color: #182143;
+  transform: translateY(-10px);
+}
+
+/* FOOTER/SOBRE em produção/tendo ideias*/
+
+.sobre {
+  background-color: #840c15;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* text-align: center; */
+}
+
+h2.sobr{
+  font-weight: 400;
+  font-size: 5rem;
+  line-height: 4.7rem;
+  margin-bottom: 3rem;
+  color: #fff;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+ul, li{
+  color: #fff;
+  margin-left: 10px;
+}
+
+h3{
+  color: #fff;
+  margin-left: 40px;
+}
+
+h4{
+  color: #fff;
+  margin-left: 700px;
+  margin-top: 0;
+}
+
+/*barra Rolagem*/
+
+.scroll-1::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scroll-1::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #888;
+}
+
+.container * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  overflow-x: scroll;
+  padding: 24px;
+  width: 95,5vw;
+  height: 70vh;
+  scroll-snap-type: x mandatory;
+  scroll-padding-top: 24px;
+  border-radius: 8px;
+  gap: 20px;
+}
+
+.container .card1 {
+  flex: 0 0 100%;
+  overflow: hidden;
+  border-radius: 200px;
+  background-color: #141414;
+  scroll-snap-align: start;
+
+}
+
+.card1 .card__image {
+  flex: 1;
+  height: 63vh;
+}
+
+.card1:nth-child(1) .card__image {
+  background-image: url(img/visualcodeini2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.card1:nth-child(2) .card__image {
+  background-image: url(img/visualcodeini2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.card1:nth-child(3) .card__image {
+  background-image: url(img/visualcodeini2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.card1:nth-child(4) .card__image {
+  background-image: url(img/visualcodeini2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.card1:nth-child(5) .card__image {
+  background-image: url(img/visualcodeini2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.card1:nth-child(6) .card__image {
+  background-image: url(img/visualcodeini2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.card1:nth-child(7) .card__image {
+  background-image: url(img/visualcodeini2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.card1s .card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.card1 .card__content .card__title {
+  font-size: 32px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+
+/*buttonini*/
+.buttonini {
+  display: inline-block;
+  border-radius: 7px;
+  border: none;
+  background: #1875FF;
+  color: white;
+  font-family: inherit;
+  text-align: center;
+  font-size: 13px;
+  box-shadow: 0px 14px 56px -11px #1875FF;
+  width: 100%;
+  padding: 1em;
+  transition: all 0.4s;
+  cursor: pointer;
+ }
+ 
+ .buttonini span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+ }
+ 
+ .buttonini span:after {
+  content: 'Gratis';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.7s;
+ }
+ 
+ .buttonini:hover span {
+  padding-right: 3.55em;
+ }
+ 
+ .buttonini:hover span:after {
+  opacity: 4;
+  right: 0;
+ }
+
+
+/*Download cards*/
+.botao {
+  width: 125px;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 1px 1px rgba(107, 221, 215, 0.37);
+  padding: 5px 10px;
+  background: rgb(47,93,197);
+  background: linear-gradient(160deg, rgba(47,93,197,1) 0%, rgba(46,86,194,1) 5%, rgba(47,93,197,1) 11%, rgba(59,190,230,1) 57%, rgba(0,212,255,1) 71%);
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-weight: 505;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px rgba(59, 190, 230, 0.568));
+  transition: .5s linear;
+}
+
+.botao .mysvg {
+  display: none;
+}
+
+.botao:hover {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: .5s linear;
+}
+
+.botao:hover .texto {
+  display: none;
+}
+
+.botao:hover .mysvg {
+  display: inline;
+}
+
+.botao:hover::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: 100%;
+  height: 100%;
+  border: 3.5px solid transparent;
+  border-top: 3.5px solid #fff;
+  border-right: 3.5px solid #fff;
+  border-radius: 50%;
+  animation: animateC 2s linear infinite;
+}
+
+@keyframes animateC {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*apps relevantes section*/
+
+.cardapps {
+  padding: 3rem;
+  background: #05061e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 20px;
+  transition: all 0.4s ease;
+}
+
+.imgar {
+  height: 9vh;
+}
+
+.smallIconar {
+  width: 100%;
+  height: 100%;
+  background-color: #ff5858;
+  border-radius: 2vh;
+}
+
+.smallIconar div {
+  background: linear-gradient(120deg, #f7f7fa 30%, #05061e 38%, #05061e
+  40%, #05061e 48%);
+  margin-top: 10px;
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  animation: load89234 2s infinite;
+  color: #f1eeee;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.Iconar {
+  margin: 10px;
+  width: 70px;
+  height: 70px;
+  float: left;
+  border-radius: 5px;
+}
+
+.Namear {
+  width: 90px;
+  height: 20px;
+  float: left;
+  transform: translate(10px ,0px);
+  border-radius: 5px;
+}
+
+.Rolesar {
+  width: 40px;
+  height: 20px;
+  float: left;
+  transform: translate(20px ,0px);
+  border-radius: 5px;
+}
+
+.Descripionar {
+  margin: 10px;
+  width: 140px;
+  height: 45px;
+  float: left;
+  transform: translate(0px ,-5px);
+  border-radius: 5px;
+}
+
+@keyframes load89234 {
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+/*download button apps relevantes*/
+.buttonar {
+  --main-focus: #2d8cf0;
+  --font-color: #05061e;
+  --bg-color-sub: #840c15;
+  --bg-color: #ba2221;
+  --main-color: #05061e;
+  position: relative;
+  width: 160px;
+  height: 45px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.buttonar, .buttonar__icon, .buttonar__text {
+  transition: all 0.3s;
+}
+
+.buttonar .buttonar__text {
+  transform: translateX(21px);
+  color: var(--font-color);
+  font-weight: 600;
+}
+
+.buttonar .buttonar__icon {
+  position: absolute;
+  transform: translateX(109px);
+  height: 100%;
+  width: 39px;
+  background-color: var(--bg-color-sub);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonar .svg {
+  width: 20px;
+  fill: var(--main-color);
+}
+
+.buttonar:hover {
+  background: var(--bg-color);
+}
+
+.buttonar:hover .buttonar__text {
+  color: transparent;
+}
+
+.buttonar:hover .buttonar__icon {
+  width: 148px;
+  transform: translateX(0);
+}
+
+.buttonar:active {
+  transform: translate(3px, 3px);
+  box-shadow: 0px 0px var(--main-color);
+}
+
+
+/*Categorias icones*/
+@keyframes rotate {
+  from {
+    transform: rotateZ(0deg);
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.border {
+  margin: 0 2%;
+  background-image: linear-gradient(to left, rgb(63, 185, 19), blue);
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.border::before {
+  display: flex;
+  background-image: linear-gradient(to left, rgb(60, 208, 11), blue);
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 100px;
+  width: 100px;
+  scale: 1.1;
+  filter: blur(25px);
+  animation: rotate 4s linear infinite;
+  border-radius: 100px;
+}
+
+.content {
+  background-color: #111;
+  width: 100px;
+  height: 100px;
+  border-radius: 19px;
+  scale: 0.9;
+}
+
+.conteiner-border {
+  display: flex;
+  align-items: center;
+  margin-left: -25px;
+}
