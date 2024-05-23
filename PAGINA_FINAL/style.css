@@ -25,6 +25,10 @@ h1 {
     margin: 0;
 }
 
+h1 span{
+  font-style: italic;
+  font-weight: 400;
+}
 /* BARRA DE PESQUISA */
 form.example {
     display: flex;
