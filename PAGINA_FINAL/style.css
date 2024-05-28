@@ -91,26 +91,42 @@ button:hover {
 /*CABEÇALHO COMPLETO*/
 
 
-.area-imagem{
+/* .area-imagem{
     margin: 4% 12%;
     border-radius: 20px;
     padding: 10px 7px;
-    background-color: #000;
+    background-color: #000; 
+} */
+
+
+.container{
+  max-width: 100%;
+  margin: 2% 2%;
+  display: flex;
 }
 
-.display-flex-space-every > img{
+.container img{
+  max-width: 50%; /* Para imagens lado a lado, cada uma pode ter no máximo 50% da largura do container */
+  height: auto; /* Para manter a proporção da imagem */
+  float: left; /* Para alinhar as imagens lado a lado */
+  flex: 1;
+}
+
+
+
+/* .display-flex-space-every > img{
     background: rgb(255, 255, 255);
     border-radius: 10px;
-}
+} */
 
-.display-flex-space-every{
+/* .display-flex-space-every{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 800px;
-} 
+}  */
 
-.display-flex-start{
+.display-flex-start {
     color: white;
     display: flex;
     justify-content: center;
