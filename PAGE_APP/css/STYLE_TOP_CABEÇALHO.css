@@ -43,6 +43,14 @@
 
 }
 
+a{
+    font: normal;
+}
+
+#ancora-FATECTOOLS{
+    color: white;
+    text-decoration: none;
+}
 
 /*BARRA DE PESQUISA*/
 .btn-pesquisa {
@@ -57,7 +65,7 @@ form.btn-pesquisa input[type=text] {
     padding: 10px;
     font-size: 12pt;
     border: none;
-    width: 100%;
+    width: 100vh;
     background: #f1f1f1;
 }
 
