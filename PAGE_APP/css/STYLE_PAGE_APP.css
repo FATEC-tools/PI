@@ -3,7 +3,7 @@
 /* ESTILO GERAL - FUNDO E CENTRALIZAÇÃO */
 body {
     font-family: 'poppins', sans-serif;
-    background: #040518;
+    background: #182143;
     /* background-image: linear-gradient(195deg, #2b3a72 0%, #040518 70%); */
     background-attachment: fixed;
     margin: 0;
@@ -11,14 +11,15 @@ body {
     overflow-x: hidden;
 }
 
-h2{
+h2 {
     font-size: 40px;
 }
 
 /* ESTILO AREA DE DOWNLOAD */
 
 .area-download {
-    margin-top: 1%;
+    border-top: solid 2px white;
+    width: 100vw;
     margin-bottom: 3%;
     padding: 10px 7px;
     background-image: linear-gradient(-90deg, #840C15 10%, #BA2221 40%);
@@ -27,12 +28,18 @@ h2{
 .card-instalar {
     margin: 4% 0 3%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-ir-site {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.text-instalar{
+.text-instalar {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +53,7 @@ h2{
     color: white;
 }
 
-#image-icon-app{
+#image-icon-app {
     height: 250pxh;
     width: 250px;
     border-radius: 2vh;
@@ -76,6 +83,17 @@ h2{
     color: red;
 }
 
+.area-imagens {
+    background-color: gray;
+    height: 471px;
+    width: 792px;
+    border-radius: 2vh;
+}
+
+.margem-entre-ele {
+    margin: 0% 5%;
+}
+
 /* fim da area de download */
 
 
@@ -98,8 +116,7 @@ h2{
     background: #BA2221;
     color: white;
     padding: 4% 5%;
-    margin: 10%;
-    height: 1500px;
+    margin: 3% 10%;
     border-radius: 0.5vw;
 }
 
@@ -122,7 +139,7 @@ h2{
     background: #840C15;
     border: solid white 1px;
     border-radius: 0.3vw;
-    height: 1000px;
+    padding: 2% 1%;
 }
 
 .blocos-avaliacao {
@@ -146,4 +163,72 @@ h2{
     border-radius: 0;
     box-shadow: 0px 10px 20px #30020593;
     cursor: pointer;
+}
+
+
+
+/* ESTILOS AREA TUTORIAL */
+.area-primeiros-passos {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo-primeiros-passos {
+    color: white;
+    background: #25356F;
+    padding: .5% 5%;
+    border-radius: 30vh;
+    border: solid 2px white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.passos-geral {
+    padding: 4% 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.passos-left, .passos-right {
+    margin: 0 2%;
+}
+
+.passos-right img, .passos-left img {
+    height: 471px;
+    width: 792px;
+}
+
+.passos {
+    background-image: linear-gradient(-90deg, #840C15 10%, #BA2221 80%);
+    width: 100vw;
+    border: solid 2px white;
+}
+
+.passos-invert {
+    background-image: linear-gradient(90deg, #840C15 5%, #BA2221 50%);
+    width: 100vw;
+}
+
+.passos-video {
+    width: 100vw;
+    padding: 3%;
+    color: white;
+    border-bottom: solid 2px white;
+    background-image: linear-gradient(90deg, #840C15 5%, #BA2221 50%);
+    display: flex;
+    flex-direction: column;
+}
+
+
+#cor {
+    align-self: center;
+    background: gray;
+    height: 720px;
+    width: 1280px;
+    text-align: center;
 }

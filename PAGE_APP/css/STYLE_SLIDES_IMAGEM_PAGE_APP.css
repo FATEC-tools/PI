@@ -7,14 +7,10 @@
 
 .slides-imagem-conteiner {
     border: solid #840C15 3px;
-    height: 80vh;
-    width: 80vw;
+    height: 471px;
+    width: 792px;
     border-radius: 1vw;
     overflow: hidden;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 /* BOTÃO DE NAVEGAÇAO */
