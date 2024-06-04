@@ -147,7 +147,7 @@ a{
 
 
 /* ESTILO FORM EMAIL */
-form {
+.fim-site form {
     width: 90%;
     min-width: 28.125em;
     max-width: 35em;
@@ -156,22 +156,22 @@ form {
     border-radius: 2vh;
 }
  
-fieldset {
+.fim-site fieldset {
     border: none;
     padding: 0;
     margin: 0;
 }
  
-label,
-input,
-textarea {
+.fim-site label,
+.fim-site input,
+.fim-site textarea {
     display: block;
     width: 100%;
     box-sizing: border-box;
 }
  
-input,
-textarea {
+.fim-site input,
+.fim-site textarea {
     background-color: rgba(0, 0, 0, 0.3);
     border: 2px solid transparent;
     border-bottom-color: #bbb;
@@ -181,27 +181,27 @@ textarea {
     outline: 0;
 }
  
-input:invalid:focus,
-textarea:invalid:focus {
+.fim-site input:invalid:focus,
+.fim-site textarea:invalid:focus {
     border-bottom: 2px solid #ff000d;
 }
  
-input:valid:focus,
-textarea:valid:focus {
+.fim-site input:valid:focus,
+.fim-site textarea:valid:focus {
     border-bottom: 2px solid #ff000d;
 }
 
-input::placeholder, textarea::placeholder{
+.fim-site input::placeholder, textarea::placeholder{
     color: rgb(182, 182, 182);
 }
  
-input:focus,
-textarea:focus {
+.fim-site input:focus,
+.fim-site textarea:focus {
     border-bottom: 2px solid #8e999a;
     background-color: #182143;
 }
  
-legend {
+.fim-site legend {
     padding: 0.5em;
     text-align: center;
     font-weight: bold;
@@ -209,7 +209,7 @@ legend {
     font-size: 1.3em;
 }
  
-.btn {
+.fim-site .btn {
     background-color: #ff000d;
     color: white;
     border-radius: 30vh;
