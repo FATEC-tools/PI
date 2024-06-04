@@ -187,7 +187,7 @@ h2 {
 }
 
 .passos-geral {
-    padding: 4% 2%;
+    padding: 4% 3%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,7 +195,7 @@ h2 {
 }
 
 .passos-left, .passos-right {
-    margin: 0 2%;
+    margin: 0 4%;
 }
 
 .passos-right img, .passos-left img {
@@ -216,6 +216,7 @@ h2 {
 
 .passos-video {
     width: 100vw;
+    margin-left: 5%;
     padding: 3%;
     color: white;
     border-bottom: solid 2px white;
@@ -223,7 +224,6 @@ h2 {
     display: flex;
     flex-direction: column;
 }
-
 
 #cor {
     align-self: center;
