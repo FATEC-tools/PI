@@ -9,7 +9,8 @@
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
-}
+    /* position: fixed; */
+} 
 
 .topo-nav h2 {
     font-size: 20pt;
@@ -22,6 +23,16 @@
     
 }
 
+.topo-direita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#traço{
+    margin-left: 20px;
+    font-weight: 300;
+}
 
 /* botao entrar */
 #perfil-div button {
@@ -60,7 +71,7 @@
     display: flex; /* Alinhando os itens na horizontal */
 }
 #opcoes li {
-    margin-right: 170px; /* Espaçamento entre os itens */
+    margin-right: 50px; /* Espaçamento entre os itens */
 }
     
 a{
@@ -69,6 +80,10 @@ a{
     font-weight: 500;
     color: #fff;
     transition: 0.5s; /* Adicionando transição para o tamanho da fonte */
+}
+
+#opcoes ul li a{
+    font-weight: 300;
 }
 
 #opcoes a:hover{
