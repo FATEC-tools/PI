@@ -9,7 +9,8 @@
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
-}
+    /* position: fixed; */
+} 
 
 .topo-nav h2 {
     font-size: 20pt;
@@ -22,6 +23,16 @@
     
 }
 
+.topo-direita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#traço{
+    margin-left: 20px;
+    font-weight: 300;
+}
 
 /* botao entrar */
 #perfil-div button {
@@ -60,7 +71,7 @@
     display: flex; /* Alinhando os itens na horizontal */
 }
 #opcoes li {
-    margin-right: 170px; /* Espaçamento entre os itens */
+    margin-right: 50px; /* Espaçamento entre os itens */
 }
     
 a{
@@ -69,6 +80,10 @@ a{
     font-weight: 500;
     color: #fff;
     transition: 0.5s; /* Adicionando transição para o tamanho da fonte */
+}
+
+#opcoes ul li a{
+    font-weight: 300;
 }
 
 #opcoes a:hover{
@@ -85,7 +100,121 @@ a{
 /* ESTILOS PADRÃO PARA O RODAPÉ DO SITE */
 .fim-site {
     background-image: linear-gradient(90deg, #840C15 10%, #BA2221 40%);
+    padding-top: 10%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.flex-rodape{
+    display: flex;
+}
+
+.fim-site article{
+    margin: 0 3%;
+    padding: 1%;
+    color:white;
+    width: 31vw;
+}
+
+#traco-branco{border-right: solid 1px white; height: 50vh; align-self: center;}
+
+.fim-site h2 {
+    font-size: 30pt;
+    margin: 0;
+}
+
+.fim-site h2 span {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.fim-site h3 {
+    font-weight: 500;
+}
+
+.fim-site h5{
+    font-weight: 200;
+}
+
+.fim-site a{
+    text-decoration: underline;
+}
+
+.fim-site li{
+    list-style: none;
+}
+
+
+/* ESTILO FORM EMAIL */
+.fim-site form {
+    width: 90%;
+    min-width: 28.125em;
+    max-width: 35em;
+    background-color: #840c15;
+    padding: 1em;
+    border-radius: 2vh;
+}
+ 
+.fim-site fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+.fim-site label,
+.fim-site input,
+.fim-site textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+ 
+.fim-site input,
+.fim-site textarea {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid transparent;
+    border-bottom-color: #bbb;
+    padding: 0.75em;
+    margin: 0.5em 0 2.5em;
+    color: white;
+    outline: 0;
+}
+ 
+.fim-site input:invalid:focus,
+.fim-site textarea:invalid:focus {
+    border-bottom: 2px solid #ff000d;
+}
+ 
+.fim-site input:valid:focus,
+.fim-site textarea:valid:focus {
+    border-bottom: 2px solid #ff000d;
+}
+
+.fim-site input::placeholder, textarea::placeholder{
+    color: rgb(182, 182, 182);
+}
+ 
+.fim-site input:focus,
+.fim-site textarea:focus {
+    border-bottom: 2px solid #8e999a;
+    background-color: #182143;
+}
+ 
+.fim-site legend {
+    padding: 0.5em;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 1.3em;
+}
+ 
+.fim-site .btn {
+    background-color: #ff000d;
+    color: white;
+    border-radius: 30vh;
+    cursor: pointer;
+    padding: 0.7em 2em;
+    font-size: 1.2em;
+    border: none;
 }

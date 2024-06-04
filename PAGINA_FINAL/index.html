@@ -7,22 +7,41 @@
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="png" href="img/ICON_SITE_FATECTOOLS.png">
+    <!-- ICON PESQUISA -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
-    <title>FATECtools</title>
+
+
+    <title>FATEC tools - App</title>
+    <link rel="icon" href="img/ICON_SITE_FATECTOOLS.png" type="image/png">
 </head>
 <body>
-    <header>
-        <h1 class="titulo">FATEC <span>tools</span></h1>
-        <form class="example" action="/action_page.php">
-            <input type="text" placeholder="Pesquisar.." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
-        <div class="btn-container">
-            <button>Login</button>
-            <button>Cadastro</button>
-        </div>
-    </header>
+    <!-- INICIO TOPO SITE -->
+    <header class="topo-site">
+      <nav class="topo-nav">
+          <div class="topo-direita">
+              <a id="ancora-FATECTOOLS" href="/PAGE_INICIAL/index.html">
+                  <h2>Fatec <span>tools</span></h2>
+              </a>
+              <h2 id="traço">|</h2>
+              <div id="opcoes">
+                  <ul>
+                      <li><a href="#">Início</a></li>
+                      <li><a href="#">Sobre nós</a></li>
+                      <li><a href="#">Cursos</a></li>
+                      <li><a href="#">Disciplinas</a></li>
+                      <li><a href="#">Contato</a></li>
+                      <li><a href="#">Pesquisar</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div id="perfil-div">
+              <a href="/PAGE_LOGIN/PAGE_LOGIN.html"><button>Entrar</button></a>
+          </div>
+      </nav>
+  </header> <!-- FIM TOPO SITE -->
+
     <main>
         <section class="area-imagem">
             <!-- IMAGEM RELACIONADA COM A DISCIPLINA -->
@@ -104,29 +123,6 @@
               <p>Notion</p>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="sobre">
-        <div class="sobree">
-          <h2 class="sobr">Sobre nós<svg width="38" height="45" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0719 8.02397L5.7146 3.66666L6.33332 3.04794L11 7.71461V8.33333L6.33332 13L5.7146 12.3813L10.0719 8.02397Z" fill="#C5C5C5" stroke="#fff" stroke-width="2"/>
-        </svg></h2>
-        <div class="objetivos">
-            <p class="text">Desenvolvemos esse software para o Projeto Interdiciplinar do curso de DSM.
-                            O objetivo da <b>FATECtools</b> é facilitar os estudantes a terem todos os programas<br>
-                            utilizados em um lugar só, também possui conteúdos adicionais para complementar o estudo. Inicialmente o software atende apenas o curso de DSM, porém<br> futuramente poderá atender outros cursos da FATEC JAHU.
-           </p>
-          </div>
-            <!-- <h3>Desenvolvedores</h3>
-              <ul>
-                <li>Lucas Eduardo Braga Nono</li>
-                <li>Amauri Barbieri Filho</li>
-                <li>Vinicius da Silva do Nascimento</li>
-                <li>Vinícius Gimenes dos Santos</li>
-                <li>Vinicius Abilio Mariano</li>
-                <li>Lucas Von Muhlen da Cruz</li>
-              </ul> -->
-              <!-- <h4><i class="fa fa-envelope" style="font-size:24px"></i>  E-mail para contato: xxxxxxxxxxxxx@gmail.com</i></h3> -->
         </div>
       </section>
 </body>
