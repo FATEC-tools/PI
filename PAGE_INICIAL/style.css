@@ -1,122 +1,109 @@
-/* CABEÇALHO */
-header {
-    max-width: 100%; /* Define a largura máxima */
-    height: 100px;
-    background-color: #840c15;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    overflow-x: hidden; /* Para evitar a barra de rolagem horizontal */
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* ESTILOS PADRÃO PARA O CABEÇALHO DO SITE */
 body {
-    margin: 0;
-    background-attachment: fixed;
-    background-color: #05061e;
+  overflow-x: hidden; /* Remover barra de rolagem horizontal */
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+  padding: 0;
 }
 
-h1 {
-    font-weight: bold;
-    color: #fff;
-    margin: 0;
-}
-
-/* BARRA DE PESQUISA */
-form.example {
-    display: flex;
-    flex: 1;
-    max-width: 800px;
-}
-
-form.example input[type=text] {
-    flex: 1;
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    background: #f1f1f1;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-}
-
-form.example button {
-    padding: 10px 20px;
-    background: #ba2221;
-    color: white;
-    font-size: 17px;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-form.example button:hover {
-    background-color: rgb(109, 17, 17);
-}
-
-/* BOTÕES DE LOGIN/CADASTRO */
-.btn-container {
-    display: flex;
-    align-items: center;
-}
-
-.btn-container button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #ba2221;
-    color: #fff; /* Mudando a cor do texto para preto */
-    font-weight: bold; /* Deixando o texto mais grosso */
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-right: 10px; /* Adiciona espaçamento entre os botões */
-}
-
-button:last-child {
-    margin-right: 0; /* Remove a margem direita do último botão */
-}
-
-button:hover {
-    background-color: rgb(109, 17, 17);
-}
-
-/*CABEÇALHO COMPLETO*/
-
-
-.area-imagem{
-    margin: 4% 10%;
-    border-radius: 20px;
-    padding: 10px 7px;
-    background-color: #000;
-}
-
-.display-flex-space-every > img{
-    background: rgb(255, 255, 255);
-    border-radius: 10px;
-}
-
-.display-flex-space-every{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 800px;
+.topo-nav {
+  width: 100vw;
+  height: 3px;
+  padding: 2%;
+  color: white;
+  background-image: linear-gradient(90deg, #840C15 10%, #BA2221 40%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  /* position: fixed; */
 } 
 
-.display-flex-start{
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    width: 300px;
+.topo-nav h2 {
+  font-size: 20pt;
+  margin: 0;
 }
 
-.display-flex-start > h1{
-    margin-bottom: 0;
-    font-weight: 400;
-    font-size: 400%;
-    text-align: center;
+.topo-nav h2 span {
+  font-weight: 400;
+  font-style: italic;
+  
+}
+
+.topo-direita{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#traço{
+  margin-left: 20px;
+  font-weight: 300;
+}
+
+/* botao entrar */
+#perfil-div button {
+
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #840c15;
+  color: #fff;
+  font-weight: 100;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 90px;
+  transition: .2s;
+}
+
+#perfil-div button:hover {
+  transition: 0.2s;
+  transform: scale(1.02);
+  background: white;
+  color: #840c15;
+
+}
+
+#opcoes{
+  text-decoration: none;
+  color: white;
+  margin-right: 20px; /* Adicionando margem à direita para centralizar */
+  margin-left: 20px; /* Adicionando margem à esquerda para centralizar */
+}
+
+#opcoes ul {
+  list-style: none; /* Removendo as bolinhas do ul */
+  margin: 0; /* Removendo margem padrão do ul */
+  padding: 0; /* Removendo preenchimento padrão do ul */
+  display: flex; /* Alinhando os itens na horizontal */
+}
+#opcoes li {
+  margin-right: 50px; /* Espaçamento entre os itens */
+}
+  
+a{
+  font: normal;
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  transition: 0.5s; /* Adicionando transição para o tamanho da fonte */
+}
+
+#opcoes ul li a{
+  font-weight: 300;
+}
+
+#opcoes a:hover{
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+
+#ancora-FATECTOOLS{
+  color: white;
+  text-decoration: none;
 }
 
 
@@ -313,7 +300,6 @@ h2.sobr{
 
 ul, li{
   color: #fff;
-  margin-left: 10px;
 }
 
 h3{
