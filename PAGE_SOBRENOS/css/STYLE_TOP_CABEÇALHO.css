@@ -12,6 +12,7 @@ body {
 }
 
 /* ESTILOS PADRÃO PARA O CABEÇALHO DO SITE */
+
 .topo-nav {
     width: 100vw;
     padding: .5% 1%;
@@ -21,7 +22,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     /* position: fixed; */
-} 
+}
 
 .topo-nav h2 {
     font-size: 20pt;
@@ -147,13 +148,13 @@ a {
     margin: 0;
 }
 
-.fim-site p{
-    font-size: 15px;
-}
-
 .fim-site h2 span {
     font-weight: 400;
     font-style: italic;
+}
+
+.fim-site p{
+    font-size: 15px;
 }
 
 .fim-site h3 {

@@ -1,15 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* ESTILO GERAL - FUNDO E CENTRALIZAÇÃO */
-body {
-    font-family: 'poppins', sans-serif;
-    background: #182143;
-    /* background-image: linear-gradient(195deg, #2b3a72 0%, #040518 70%); */
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
 
 h2 {
     font-size: 40px;
@@ -194,11 +183,13 @@ h2 {
     color: white;
 }
 
-.passos-left, .passos-right {
+.passos-left,
+.passos-right {
     margin: 0 4%;
 }
 
-.passos-right img, .passos-left img {
+.passos-right img,
+.passos-left img {
     height: 471px;
     width: 792px;
 }
@@ -217,18 +208,23 @@ h2 {
 .passos-video {
     width: 100vw;
     margin-left: 5%;
+    margin-bottom: 4%;
     padding: 3%;
     color: white;
-    border-bottom: solid 2px white;
-    background-image: linear-gradient(90deg, #840C15 5%, #BA2221 50%);
     display: flex;
     flex-direction: column;
+}
+
+.passos-video h2 {
+    font-size: 30px;
+    margin-left: 1%;
+    font-weight: 400;
 }
 
 #cor {
     align-self: center;
     background: gray;
-    height: 720px;
-    width: 1280px;
+    height: 480px;
+    width: 853px;
     text-align: center;
 }
