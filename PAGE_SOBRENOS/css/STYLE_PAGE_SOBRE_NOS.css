@@ -63,6 +63,8 @@ p{
     font-weight: 500;
 }
 
+
+
 .card-colabs{
     display: flex;
     flex-wrap: wrap;
@@ -74,6 +76,12 @@ p{
     width: 600px;
     margin: .5%;
     border-radius: 2vh;
+    transition: .5s;
+}
+
+.card-colabs .colabs:hover{
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
+    transform: scale(1.02);
 }
 
 .colabs{
