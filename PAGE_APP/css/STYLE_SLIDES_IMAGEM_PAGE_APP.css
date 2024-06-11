@@ -1,6 +1,6 @@
 /* ESTILO FORMATO DAS IMGS */
 
-.slides-imagem-conteiner2{
+.slides-imagem-conteiner2 {
     display: grid;
 
 }
@@ -16,8 +16,7 @@
 /* BOTÃO DE NAVEGAÇAO */
 .slides-navegation {
     position: absolute;
-    bottom: 1%;
-    left: 50%;
+    left:67%;
     transform: translate(-50%);
     display: flex;
 }

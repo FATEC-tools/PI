@@ -18,7 +18,7 @@ body {
     color: white;
     background-image: linear-gradient(90deg, #840C15 10%, #BA2221 40%);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     /* position: fixed; */
 } 
@@ -34,6 +34,15 @@ body {
 
 }
 
+.topo-nav .nav-geral{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+}
+
+
+
 .topo-direita {
     display: flex;
     justify-content: center;
@@ -48,6 +57,8 @@ body {
 /* botao entrar */
 #perfil-div button {
     padding: 5% 25%;
+    width: 120px;
+    height: 35px;
     font-size: 16px;
     background-color: #ff000d;
     color: #fff;
@@ -55,7 +66,6 @@ body {
     border: none;
     border-radius: 30vh;
     cursor: pointer;
-    margin-right: 90px;
     transition: .2s;
 }
 
@@ -88,7 +98,7 @@ body {
 }
 
 #opcoes li {
-    margin-right: 50px;
+    margin-right: 30px;
     /* Espaçamento entre os itens */
 }
 
@@ -103,10 +113,11 @@ a {
 
 #opcoes ul li a {
     font-weight: 300;
+    font-size: 14px;
 }
 
 #opcoes a:hover {
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: underline;
 }
 
