@@ -112,10 +112,11 @@ a{
   max-width: 100%;
   margin: 2% 2%;
   display: flex;
+  justify-content: center;
 }
 
 .container img{
-  max-width: 50%; /* Para imagens lado a lado, cada uma pode ter no máximo 50% da largura do container */
+  max-width: 40%; /* Para imagens lado a lado, cada uma pode ter no máximo 50% da largura do container */
   height: auto; /* Para manter a proporção da imagem */
   float: left; /* Para alinhar as imagens lado a lado */
   flex: 1;
@@ -217,6 +218,7 @@ a{
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
     margin-bottom: 5rem;
+    justify-content: center;
   }
    
   .card {
