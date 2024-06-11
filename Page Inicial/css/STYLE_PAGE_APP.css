@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ESTILO GERAL - FUNDO E CENTRALIZAÇÃO */
+body {
+    font-family: 'poppins', sans-serif;
+    background: #182143;
+    background-image: linear-gradient(195deg, #2b3a72 0%, #040518 70%); 
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.container {
+  margin-top: 60px;
+    display: flex;
+    overflow-x: scroll;
+    padding: 60px;
+    width: 95.5vw; 
+    height: 70vh;
+    scroll-snap-type: x mandatory;
+    scroll-padding-top: 30px;
+    border-radius: 10px;
+    gap: 40px;
+}
+
+.container .card {
+    flex: 0 0 60%;
+    background-size: cover; 
+    background-position: center; 
+    overflow: hidden;
+    border-radius: 100px;
+    background-color: #141414;
+    scroll-snap-align: start;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.6); 
+}
+
+.card{transition: 0.6s;}
+
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.925)
+}
+.card1 {
+    background-image: url(https://learn.microsoft.com/pt-br/shows/visual-studio-code/media/visual-studio-code-banner-image.jpg);
+
+}
+.card2 {
+    background-image: url(https://cdn.dribbble.com/users/3061686/screenshots/17599140/media/0ec246b4c2684bc46d34ffc841cf2745.png);
+}
+.card3 {
+    background-image: url(https://www.linuxadictos.com/wp-content/uploads/virtualbox-logo-1.jpg);
+}
+.card4 {
+    background-image: url(https://i.ytimg.com/vi/dPV7fUuXEoA/maxresdefault.jpg);
+}
+
+
+
+.SC {
+  color: #f1f1f1;
+  text-shadow: 0 0px 10px rgb(46, 13, 192);
+  margin-top: 1px;
+  margin-left: 40px;
+}
+
+.SC2 {
+  position: absolute;
+  color: #f1f1f1;
+  text-shadow: 0 0px 10px rgb(46, 13, 192);
+  margin-top: -150px;
+  margin-left: -40px;
+  
+}
+
+.cardapp {
+    padding: 4rem;
+    background: rgba(6, 17, 77, 0.164);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+  }
+
+  .Apps {
+    display: flex;
+    align-items: center;
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 250px;
+    border-radius: 10px;
+    background-image: linear-gradient(195deg, #2b3a72 0%, #300e0e 70%); 
+    height: 100px;
+    font-size: 20px; 
+    gap: 10px;
+    border: solid 1px #811010;
+    box-shadow:  rgba(255, 0, 0, 0.993) 1px 2px 4px;
+  }
+
+
+.imgar {    
+    position: absolute;
+    display: flex;
+    width: 70px;
+   margin-right: 200px;
+}
+
+ .baixaki {
+    position: absolute;
+  align-items: center;
+  background: #8f0606;
+  border: 1px solid #8f0606;
+  border-radius: 8px;
+  box-shadow: rgba(139, 22, 2, 0.993) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family:"proxima nova",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  height: 20px;
+  width: 170px;
+  line-height: 10px;
+  min-height: 40px;
+  padding: 15px 18px;
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 80px;
+
+} 
+
+
+.baixaki:hover {
+    transition: .4s;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px #530d0d;
+}
+
+p {
+    margin-top: -15px;
+    margin-right: -70px;
+}
+
+
+
+.S2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+ 
+  .botaodsm {
+        background-color: #d41212; 
+        color: #FFFFFF;
+        padding: 1px 40px; 
+        border: none; 
+        border-radius: 15px; 
+        cursor: pointer; 
+        font-size: 15px;
+        font-weight: bold; 
+        transition: all 0.3s ease; 
+        margin-top: -50px;
+        margin-bottom: 150px;
+        margin-right: 900px;
+        text-align: center;
+  }
+    
+    
+    .botaodsm:hover {
+        transition: .4s;
+        transform: scale(1.05);
+        box-shadow: 0px 4px 8px #c40202;
+    }
+    
+  
+ 
+  
+  .cartoes {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 900px;
+    gap: 40px;
+  }
+  
+  .cartao {
+    display: flex;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #d41212;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.6); 
+  }
+  
+  .cartao:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cartao p{
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .borda {
+    margin-top: 2px;
+    border-top: solid 2px rgba(255, 255, 255, 1);
+  }
+
+.cabeca {
+    margin-right: 900px;
+    margin-top: -40px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgb(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgb(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 1); 
+  }
+  
+  ::-webkit-scrollbar:hover {
+    opacity: 1; 
+  }
+  
+  ::-webkit-scrollbar {
+    border-radius: 10px;
+    opacity: 0.5; 
+  }
+
+  header {
+    border-bottom: solid 2px #FFFFFF;
+  }
