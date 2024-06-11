@@ -93,7 +93,7 @@ body {
     /* Espaçamento entre os itens */
 }
 
-a {
+.topo-nav a, .fim-site a {
     font: normal;
     text-decoration: none;
     font-weight: 500;

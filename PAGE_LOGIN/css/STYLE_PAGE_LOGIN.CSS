@@ -20,6 +20,10 @@ input, label {
     font-size: 1.5vh;
 }
 
+input{
+    margin-bottom: 2%;
+}
+
 h1 {
     font-size: 3vh;
 }
@@ -30,6 +34,11 @@ h1 {
 
 h2{
     font-size: 2.5vh;
+}
+
+p{
+    margin-top: 2px;
+    font-size: 15px;
 }
 
 svg{height: 70vh; transform:translateX(-20%) ;}
@@ -97,10 +106,6 @@ svg{height: 70vh; transform:translateX(-20%) ;}
 
 /* TAMANHO FONT */
 
-.fielholder>form>label {
-    margin-top: 7%;
-}
-
 .fielholder>form>input {
     width: 100%;
     border: none;
@@ -116,10 +121,6 @@ svg{height: 70vh; transform:translateX(-20%) ;}
     border-radius: 1vh;
     transform: scale(1.01);
     transition: 0.2s;
-}
-
-.fielholder>form>input::placeholder, .fielholder>form>input{
-    padding-left: 2%;
 }
 
 #btn-entrar {
@@ -149,7 +150,7 @@ svg{height: 70vh; transform:translateX(-20%) ;}
 }
 
 .card_login a {
-    color: #3a52aa;
+    color: #2a4ecf;
     transition: .2s;
 
 }

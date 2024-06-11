@@ -104,6 +104,16 @@ p{
     font-weight: 300;
 }
 
+.colabs h4 a{
+    color: white;
+    font-weight: 500;
+}
+
+.colabs h4 a:hover{
+    color:yellow;
+
+}
+
 .colabs div{
     display: flex;
     flex-direction: column;
