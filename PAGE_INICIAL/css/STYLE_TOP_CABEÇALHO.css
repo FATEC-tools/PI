@@ -1,0 +1,106 @@
+/* ESTILOS PADRÃO PARA O CABEÇALHO DO SITE */
+.topo-nav {
+    width: 100vw;
+    height: 3px;
+    padding: 2%;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(90deg, #840C15 10%, #BA2221 40%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    /* position: fixed; */
+} 
+
+.topo-nav h2 {
+    font-size: 20pt;
+    margin: 0;
+}
+
+.topo-nav h2 span {
+    font-weight: 400;
+    font-style: italic;
+    
+}
+
+.topo-direita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#traço{
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+/* botao entrar */
+#perfil-div button {
+
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #840c15;
+    color: #fff;
+    font-weight: 100;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 90px;
+    transition: .2s;
+}
+
+#perfil-div button:hover {
+    transition: 0.2s;
+    transform: scale(1.02);
+    background: white;
+    color: #840c15;
+
+}
+
+#opcoes{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px; /* Adicionando margem à direita para centralizar */
+    margin-left: 20px; /* Adicionando margem à esquerda para centralizar */
+}
+
+#opcoes ul {
+    list-style: none; /* Removendo as bolinhas do ul */
+    margin: 0; /* Removendo margem padrão do ul */
+    padding: 0; /* Removendo preenchimento padrão do ul */
+    display: flex; /* Alinhando os itens na horizontal */
+}
+#opcoes li {
+    margin-right: 50px; /* Espaçamento entre os itens */
+}
+    
+a{
+    font: normal;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.5s; /* Adicionando transição para o tamanho da fonte */
+}
+
+#opcoes ul li a{
+    font-weight: 300;
+}
+
+#opcoes a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+#ancora-FATECTOOLS{
+    color: white;
+    text-decoration: none;
+}
+
+/* ESTILOS PADRÃO PARA O RODAPÉ DO SITE */
+.fim-site {
+    background-image: linear-gradient(90deg, #840C15 10%, #BA2221 40%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

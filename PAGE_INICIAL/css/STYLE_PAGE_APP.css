@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ESTILO GERAL - FUNDO E CENTRALIZAÇÃO */
+body {
+    font-family: 'poppins', sans-serif;
+    background: #182143;
+    background-image: linear-gradient(195deg, #2b3a72 0%, #040518 70%); 
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+/* ESTILO AREA DE DOWNLOAD */
+
+.area-download {
+    border-top: solid 2px white;
+    width: 100vw;
+    margin-bottom: 3%;
+    padding: 10px 7px;
+    background-image: linear-gradient(-90deg, #840C15 10%, #BA2221 40%);
+}
+
+.card-instalar {
+    margin: 4% 0 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-ir-site {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-instalar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text-instalar h2 {
+    margin-bottom: .7%;
+    margin-top: 2%;
+    color: white;
+}
+
+#image-icon-app {
+    height: 250pxh;
+    width: 250px;
+    border-radius: 2vh;
+    background: #03112c;
+}
+
+
+.area-imagens {
+    background-color: gray;
+    height: 471px;
+    width: 792px;
+    border-radius: 2vh;
+}
+
+.margem-entre-ele {
+    margin: 0% 5%;
+}
+
+/* fim da area de download */
+
+
+/* ESTILO CARROSSEL DE FOTOS */
+
+/* ESTILOS DA AREA FOTOS ESTA EM "img/STYLE_SLIDES_IMAGEM" */
+
+/* fim area de fotos */
+
+
+
+/* ESTILOS DA AREA DE DESCRIÇAO E AVALIAÇAO */
+.area-descricao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descricao-avaliacao {
+    background: #BA2221;
+    color: white;
+    padding: 4% 5%;
+    margin: 3% 10%;
+    border-radius: 0.5vw;
+}
+
+.descricao {
+    margin-bottom: 7%;
+}
+
+.descricao h2,
+.avaliacao h2 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.descricao p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.avaliacao {
+    background: #840C15;
+    border: solid white 1px;
+    border-radius: 0.3vw;
+    padding: 2% 1%;
+}
+
+.blocos-avaliacao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blocos-avaliacao div {
+    background-color: rgb(255, 220, 220);
+    width: 30vw;
+    height: 390px;
+    margin: 10px;
+    border-radius: 1vh;
+    transition: .5s;
+}
+
+.blocos-avaliacao div:hover {
+    transform: scale(1.02);
+    transition: .5s;
+    border-radius: 0;
+    box-shadow: 0px 10px 20px #30020593;
+    cursor: pointer;
+}
+
+
+
+/* ESTILOS AREA TUTORIAL */
+.area-primeiros-passos {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo-primeiros-passos {
+    color: white;
+    background: #25356F;
+    padding: .5% 5%;
+    border-radius: 30vh;
+    border: solid 2px white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.passos-geral {
+    padding: 4% 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.passos-left, .passos-right {
+    margin: 0 2%;
+}
+
+.passos-right img, .passos-left img {
+    height: 471px;
+    width: 792px;
+}
+
+.passos {
+    background-image: linear-gradient(-90deg, #840C15 10%, #BA2221 80%);
+    width: 100vw;
+    border: solid 2px white;
+}
+
+.passos-invert {
+    background-image: linear-gradient(90deg, #840C15 5%, #BA2221 50%);
+    width: 100vw;
+}
+
+.passos-video {
+    width: 100vw;
+    padding: 3%;
+    color: white;
+    border-bottom: solid 2px white;
+    background-image: linear-gradient(90deg, #840C15 5%, #BA2221 50%);
+    display: flex;
+    flex-direction: column;
+}
+
+
+#cor {
+    align-self: center;
+    background: gray;
+    height: 720px;
+    width: 1280px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    overflow-x: scroll;
+    padding: 60px;
+    width: 95.5vw; 
+    height: 70vh;
+    scroll-snap-type: x mandatory;
+    scroll-padding-top: 30px;
+    border-radius: 10px;
+    gap: 40px;
+}
+
+.container .card {
+    flex: 0 0 50%;
+    background-size: cover; 
+    background-position: center; 
+    overflow: hidden;
+    border-radius: 100px;
+    background-color: #141414;
+    scroll-snap-align: start;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.6); 
+}
+
+.card{transition: 0.6s;}
+
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.925)
+}
+.card1 {
+    background-image: url(https://learn.microsoft.com/pt-br/shows/visual-studio-code/media/visual-studio-code-banner-image.jpg);
+
+}
+.card2 {
+    background-image: url(https://cdn.dribbble.com/users/3061686/screenshots/17599140/media/0ec246b4c2684bc46d34ffc841cf2745.png);
+}
+.card3 {
+    background-image: url(https://www.linuxadictos.com/wp-content/uploads/virtualbox-logo-1.jpg);
+}
+.card4 {
+    background-image: url(https://i.ytimg.com/vi/dPV7fUuXEoA/maxresdefault.jpg);
+}
+
+section::-webkit-scrollbar {
+    background-color: #182143;
+}
+
+.SC {
+    color: #f1f1f1;
+    text-shadow: 0 0px 10px rgb(70, 35, 167);
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.cardapp {
+    padding: 3rem;
+    background: #05061e;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+  }
+
+  .Apps {
+    display: flex;
+    align-items: center;
+    color:#f1f1f1;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 250px;
+    border-radius: 10px;
+    background: #182143;
+    background-image: linear-gradient(195deg, #2b3a72 0%, #300e0e 70%); 
+    height: 100px;
+    font-size: 20px; 
+    gap: 20px;
+    
+}
+
+
+.imgar {    
+    position: absolute;
+    display: flex;
+    width: 70px;
+   margin-right: 200px;
+}
+
+ .baixaki {
+    position: absolute;
+  align-items: center;
+  background: #8f0606;
+  border: 1px solid #8f0606;
+  border-radius: 8px;
+  box-shadow: rgba(139, 22, 2, 0.993) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family:"proxima nova",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  height: 20px;
+  width: 170px;
+  line-height: 10px;
+  min-height: 40px;
+  padding: 15px 18px;
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 80px;
+
+} 
+
+
+.baixaki:hover {
+    transition: .4s;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px #530d0d;
+}
+
+p {
+    margin-top: -15px;
+    margin-right: -70px;
+}
+
+
+
+.S2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+ 
+  .botaodsm {
+        background-color: #d41212; /* Cor de fundo verde */
+        color: #FFFFFF; /* Cor do texto branco */
+        padding: 15px 60px; /* Preenchimento interno do botão */
+        border: none; /* Remover a borda padrão */
+        border-radius: 5px; /* Arredondar as bordas */
+        cursor: pointer; /* Mudar o cursor ao passar sobre o botão */
+        font-size: 16px; 
+        font-weight: bold; 
+        transition: all 0.3s ease; 
+        margin-bottom: 100px;
+        margin-left: -800px;
+        text-align: center;
+        width: 150px;
+  }
+    
+    
+    .botaodsm:hover {
+        transition: .4s;
+        transform: scale(1.05);
+        box-shadow: 0px 4px 8px #d41212;
+    }
+    
+  
+ 
+  
+  .cartoes {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 900px;
+    gap: 40px;
+  }
+  
+  .cartao {
+    display: flex;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #d41212;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.6); 
+  }
+  
+  .cartao:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cartao p{
+    margin-top: 15px;
+    text-align: center;
+  }
