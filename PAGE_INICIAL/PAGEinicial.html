@@ -6,15 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/STYLE_TOP_CABEÇALHO.css">
-    <link rel="stylesheet" href="css/STYLE_PAGE_APP.css">
-    
+    <link rel="stylesheet" href="css/STYLE_PAGE_INICIAL.css">
+    <link rel="stylesheet" href="style.css">
+
     <!-- ICON PESQUISA -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
 
 
-    <title>FATEC tools - App</title>
+    <title>FATEC tools</title>
     <link rel="icon" href="img/ICON_SITE_FATECTOOLS.png" type="image/png">
 </head>
 
@@ -44,63 +45,202 @@
         </nav>
     </header> <!-- FIM TOPO SITE -->
 
-<main>
+    <!-- PARTE CONTEUDO PRINCIPAL -->
+    <main id="tela-inicio">
+        <section id="imagem-app-site inicio-flex-lado">
+            <div class="area-imagens-inicio margem-entre-ele-inicio">
+                <div class="slides-imagem-conteiner-inicio">
+                    <div class="slides-imagens-inicio">
 
-    <section class="container"> 
-        <div class="card card1">
-        </div> 
-        <div class="card card2">
-        </div>
-        <div class="card card3">
-        </div>
-        <div class="card card4">
-        </div>
+                        <!-- ESCOLHER IMAGEMS QUE SERÁ EXIBIDA -->
+                        <input class="radio-img" type="radio" name="slide" id="slide1" checked>
+                        <input class="radio-img" type="radio" name="slide" id="slide2">
+                        <input class="radio-img" type="radio" name="slide" id="slide3">
+                        <input class="radio-img" type="radio" name="slide" id="slide4">
+                        <input class="radio-img" type="radio" name="slide" id="slide5">
 
-    </section>
+                        <!-- IMAGENS DO SLIDE -->
+                        <div class="slide s1">
+                            <img src="img/tela_welcom.png" alt="">
+                        </div>
 
-<section>
+                        <div class="slide">
+                            <img src="img/Captura de tela 2024-05-18 172949.png" alt="">
+                        </div>
+
+                        <div class="slide">
+                            <img src="img/tela_codigo.png" alt="">
+                        </div>
+
+                        <div class="slide">
+                            <img src="img/Passo2VSCode.png" alt="">
+                        </div>
+
+                        <div class="slide">
+                            <img src="img/Passo3VSCode.png" alt="">
+                        </div>
+
+                    </div>
+
+
+                    <!-- NAVEGAÇÃO ENTRE AS IMAGENS -->
+                    <div class="slides-navegation">
+                        <label class="bar" for="slide1"></label>
+                        <label class="bar" for="slide2"></label>
+                        <label class="bar" for="slide3"></label>
+                        <label class="bar" for="slide4"></label>
+                        <label class="bar" for="slide5"></label>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <article class="inicio-aplicativos-relevantes">
+            <h2>Aplicativos Relevantes</h2>
+            <div class="app-relevante flex-lado-quebra">
+                <div class="btn-app">
+                    <img src="" alt="imagem do site ou app">
+                    <h3>Visual Studios Code</h3>
+                </div>
+                <div class="btn-app">
+                    <img src="" alt="imagem do site ou app">
+                    <h3>Visual G</h3>
+                </div>
+                <div class="btn-app">
+                    <img src="" alt="imagem do site ou app">
+                    <h3>brModelo</h3>
+                </div>
+                <div class="btn-app">
+                    <img src="" alt="imagem do site ou app">
+                    <h3>Figma</h3>
+                </div>
+                <div class="btn-app">
+                    <img src="" alt="imagem do site ou app">
+                    <h3>Oracle</h3>
+                </div>
+                <div class="btn-app">
+                    <img src="" alt="imagem do site ou app">
+                    <h3>Git</h3>
+                </div>
+            </div>
+        </article>
+
+        <section class="imagem-propaganda">
+            <img src="img/Carousel_Image_Boards_2x.png" alt="imagem-app-site">
+        </section>
+
+        <article class="aplicativos-categoria">
+            <h2>Desenvolvimento Web</h2>
+            <div id="aplicativos-categoria" class="app-categoria flex-lado-quebra">
+                <div class="btn-app">
+                    <img src="" alt="imagem do site ou app">
+                    <h3>Visual Studios Code</h3>
+                </div>
+                <div class="btn-app">
+                    <img src="" alt="imagem do site ou app">
+                    <h3>Git</h3>
+                </div>
+                <div class="btn-app">
+                    <img src="" alt="imagem do site ou app">
+                    <h3>Como usar Git & GitHub</h3>
+                </div>
+                <div class="btn-app">
+                    <img src="" alt="imagem do site ou app">
+                    <h3></h3>
+                </div>
+                <div class="btn-app">
+                    <img src="" alt="imagem do site ou app">
+                    <h3></h3>
+                </div>
+                <div class="btn-app">
+                    <img src="" alt="imagem do site ou app">
+                    <h3></h3>
+                </div>
+            </div>
+        </article>
         
-    <div class ="SC">
-       <h2> APLICATIVOS RELEVANTES </h2>
-    </div>
-    <div class="cardapp">
-        <div class="Apps app1"> <img class="imgar" src="https://cdn.freebiesupply.com/logos/large/2x/visual-studio-code-logo-png-transparent.png">
-            <p> Visual Studio Code </p> 
-    <button class="baixaki"> Instalar </button>
-    </div>
-    <div class="Apps app2"> <img class="imgar" src="https://cdn.icon-icons.com/icons2/195/PNG/256/VirtualBox_23525.png">
-        <p> Virtual Box </p>
-        <button class="baixaki"> Instalar </button>
-    </div>
-    <div class="Apps app3"> <img class="imgar" src="https://cdn.icon-icons.com/icons2/195/PNG/256/VirtualBox_23525.png">
-        <p> Virtual Box </p>
-        <button class="baixaki"> Instalar </button>
-    </div>
-</section>
-<section>
-    <div class="S2">
-        <button class="botaodsm">
-          <p>TESTE</p>
-        </button>
-      
-        <div class="cartoes">
-          <div class="cartao">
-            <p>Visual Box</p>
-          </div>
-          <div class="cartao">
-            <p>Visual G</p>
-          </div>
-          <div class="cartao">
-            <p>Visual Studio</p>
-          </div>
-          <div class="cartao">
-            <p>Figma</p>
-          </div>
-          <div class="cartao">
-            <p>Canvas</p>
-          </div>
+
+        <section class="imagem-propaganda">
+            <img src="img/Carousel_Image_Boards_2x.png" alt="imagem-app-site">
+        </section>
+
+        <article class="img-destaque">
+            <img src="" alt="imagem destaque">
+        </article>
+    </main>
+
+    <footer class="fim-site">
+        <div class="flex-rodape">
+            <article class="sobre-rodape">
+                <a id="ancora-FATECTOOLS" href="/PAGE_INICIAL/index.html">
+                    <h2>Fatec <span>tools</span></h2>
+                </a>
+                <p>
+                    O site Fatec Tools foi criado para auxiliar os alunos para encontrar de forma rápida e facil as
+                    ferramentas
+                    que serão usadas ao longo de seus cursos, também encontrará artigos para estudo.
+                </p>
+
+                <a id="ancora-sobre-nos" href="#">
+                    <h3>Sobre Nós</h3>
+                </a>
+            </article>
+
+            <div id="traco-branco"> </div>
+
+            <article class="disciplinas-rodape">
+                <h3>Cursos e disciplinas</h3>
+                <ul>
+                    <li>
+                        <h5><a href="#">Desenvolvimento Web</a></h5>
+                    </li>
+                    <li>
+                        <h5><a href="#">Design Digital</a></h5>
+                    </li>
+                    <li>
+                        <h5><a href="#">Engenharia de Software</a></h5>
+                    </li>
+                    <li>
+                        <h5><a href="#">Modelagem de Banco da Dados</a></h5>
+                    </li>
+                    <li>
+                        <h5><a href="#">Sistemas operacionais</a></h5>
+                    </li>
+                    <li>
+                        <h5><a href="#">Algoritmos e Logica de Programção</a></h5>
+                    </li>
+                </ul>
+            </article>
+
+            <div id="traco-branco"> </div>
+
+            <article class="contato-rodape">
+                <h3>Contato</h3>
+                <p>
+                    Achou um erro? ou senão tem uma sugestão, entre em contato conosco!
+                </p>
+
+                <form action="#" method="post" autocomplete="off">
+                    <fieldset>
+                        <legend>Formulário de contato</legend>
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name" required placeholder="Digite seu nome completo" />
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" required placeholder="Digite um e-mail válido" />
+                        <label for="subject">Assunto</label>
+                        <input type="text" name="subject" id="subject" />
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" rows="7" required maxlength="1000" minlength="20"
+                            placeholder="Conte-nos tudo"></textarea>
+                        <button type="submit" class="btn">Enviar</button>
+                    </fieldset>
+                </form>
+            </article>
         </div>
-      
-      </div>
-</section>
-</main>
+        <footer id="roda-rodapé"></footer>
+    </footer>
+</body>
+
+</html>

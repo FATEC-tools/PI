@@ -1,0 +1,79 @@
+/* ESTILOS GERAIS */
+#tela-inicio article{
+    margin: 0 3%;
+}
+
+#tela-inicio h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#tela-inicio h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* ESTILOS PARTE APP */
+.inicio-aplicativos-relevantes, .aplicativos-categoria{
+    color: white;
+}
+
+.flex-lado-quebra{
+    display: flex;
+    justify-content: center;
+}
+
+.app-relevante, .app-categoria{
+    margin: 3%;
+}
+
+.btn-app{
+    width: 33%;
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .6s;
+    cursor: pointer;
+}
+
+.btn-app:hover{
+    transform: scale(1.02);
+    background: #BA2221;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.438);
+    border-radius: 2vh;
+}
+
+.btn-app img{
+    background-color: gray;
+    width: 150px;
+    height: 150px;
+    border-radius: 2vh;
+}
+
+.btn-app h3{text-align: center;}
+
+
+
+/* ESTILOS IMAGENS PROPAGANDA */
+.imagem-propaganda{
+    width: 100%;
+    background: red;
+    border: solid 2px white;
+    margin: 10% 0;
+    padding: 0;
+}
+
+.imagem-propaganda img{
+    width: 100%;
+    height: 100%;
+}
+
+.img-destaque{
+    margin: 0 5%;
+}
+
+.img-destaque img{
+    background: gray;
+}
