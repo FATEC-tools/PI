@@ -3,12 +3,30 @@
 /* ESTILO GERAL - FUNDO E CENTRALIZAÇÃO */
 body {
     font-family: 'poppins', sans-serif;
-    background: #182143;
-    /* background-image: linear-gradient(195deg, #2b3a72 0%, #040518 70%); */
+    background-image: linear-gradient(90deg, #2b3a72 0%, #040518 70%); 
     background-attachment: fixed;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 9px;
+    border-radius: 2vh;
+}
+
+body::-webkit-scrollbar-track {
+    background: #040518;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #9c1c1c;
+    border-radius: 2vh;
+    transition: .2s;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background-color: #840c15;
 }
 
 /* ESTILOS PADRÃO PARA O CABEÇALHO DO SITE */
@@ -18,7 +36,7 @@ body {
     color: white;
     background-image: linear-gradient(90deg, #840C15 10%, #BA2221 40%);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     /* position: fixed; */
 } 
@@ -206,6 +224,10 @@ a {
     display: block;
     width: 100%;
     box-sizing: border-box;
+}
+
+.fim-site input, .fim-site textarea{
+    transition: .3s;
 }
 
 .fim-site input,
