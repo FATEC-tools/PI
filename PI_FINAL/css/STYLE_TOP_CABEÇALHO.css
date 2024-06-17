@@ -3,7 +3,7 @@
 /* ESTILO GERAL - FUNDO E CENTRALIZAÇÃO */
 body {
     font-family: 'poppins', sans-serif;
-    background-image: linear-gradient(180deg, #2b3a72 0%, #040518 70%); 
+    background-image: linear-gradient(180deg, #2b3a72 69%, #040518 100%);
     background-attachment: fixed;
     margin: 0;
     padding: 0;

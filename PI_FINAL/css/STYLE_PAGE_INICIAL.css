@@ -1,6 +1,6 @@
 /* ESTILOS GERAIS */
 #tela-inicio article{
-    margin: 15% 9%;
+    margin: 0% 9%;
 }
 
 #tela-inicio h2{
@@ -31,13 +31,14 @@
 
 .app-relevante, .app-categoria{
     margin: 3%;
-    margin-bottom: 250px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .btn-app{
-    width: 100%;
-    padding: 1%;
-    margin: 1%;
+    padding: 1% 0.3%;
+    width: 15%;
+    margin: .5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,7 +83,7 @@
 /* ESTILOS IMAGENS PROPAGANDA */
 .imagem-propaganda{
     width: 100%;
-    margin: 10% 0;
+    margin: 0% 0;
     padding: 0;
 }
 

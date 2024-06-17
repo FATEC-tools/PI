@@ -16,6 +16,7 @@
 .slides-navegation {
     position: absolute;
     left: 50%;
+    margin: 5px;
     transform: translate(-50%);
     display: flex;
 }
