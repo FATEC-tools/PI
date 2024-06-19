@@ -18,6 +18,16 @@
    box-sizing: border-box;
  }
 
+ main h2 {
+   font-size: 30px;
+   font-weight: 400;
+ }
+
+ main h3 {
+   font-size: 20px;
+   font-weight: 400;
+ }
+
  /* pesquisar */
  form.example input[type=text] {
    padding: 10px;

@@ -16,7 +16,7 @@
 /* BOTÃO DE NAVEGAÇAO */
 .slides-navegation {
     position: absolute;
-    left:67%;
+    left:64%;
     transform: translate(-50%);
     display: flex;
 }
